@@ -14,7 +14,7 @@ if str(input()) == "yes":
 else:
     print("Very well...  I guess you don't have what it takes.")
 
-
+# Pseudocode for logic loop of potential choices.
 story_line1 = ['this is story one', 'this is story 2', 'this is story 3', 'this is story 4']
 def first_story():
     for story in first_story(pass):
