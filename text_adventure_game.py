@@ -9,7 +9,7 @@ print("Hello, seeker.  Are you ready for your next adventure? Please, enter 'yes
 
 print(str(input()))
 
-if str(input()) == "yes":
+if str(input().lower) == "yes": # adding the lower method will convert any input into lower case before compairing strings.
     print("Great, grab you pointy hat and your magic wand because things are about to get fantastical for you!")
 else:
     print("Very well...  I guess you don't have what it takes.")
